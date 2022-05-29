@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 35px;
+    color: #2f3e46;
+}
+
+.brand{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand img{
+    width: 45px;
+    height: 45px;
+    margin-right: 8px;
+}
+
+.month-year{
+    margin-right: 120px;
+    font-size: 1.8rem;
+}
+
+.prev-next button{
+    background: none;
+    border: none;
+    font-size: 1.3rem;
+    margin-right: 10px;
+    cursor: pointer;
+    padding: 5px 14px;
+}
+
+.prev-next button:hover{
+    background: lightgrey;
+    border-radius: 50%;
+}
+
+hr{
+    margin: 0;
+}
+
+.col-lg-3, .col-lg-9{
+    padding-bottom: 20px;
+}
+
+.col-lg-3{
+    border-right: 1px solid #dadce0;
+    padding: 20px;
+    background-color: #3a0ca3;
+    color: white
+}
+.upcoming h5{
+    font-weight: 600;
+}
+#events-list{
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.col-lg-9{
+    padding-left: 50px;
+    background-color: #bbd0ff;
+}
+
+.weekdays{
+    display: flex;
+    width: 728px;
+}
+
+.weekdays div{
+    width: 104px;
+    text-align: center;
+    padding: 18px 0px;
+    font-weight: 800;
+    color: #023e8a;
+    font-size: 1.1rem;
+}
+
+.calendar{
+    width: 728px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.calendar .day-div{
+    width: 104px;
+    height: 104px;
+    border: 0.5px solid #dadce0;
+    border-radius: 7px;
+    text-align: center;
+    padding-top: 10px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.calendar .day-div:hover{
+    background-color: #e0aaff;
+}
+
+.blank-div{
+    background-color: #dee2e6 !important;
+}
+
+.blank-div:hover{
+    background-color: #dee2e6 !important;
+    cursor: default;
+}
+
+.hide{
+    display: none !important;
+}
+
+.new-div{
+    margin-top: 20px;
+    background-color: #560bad;
+    color: white;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+
+.form-group label{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.modal-header{
+    background-color: #7209b7;
+    color: white
+}
+
+.daystyle{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.todaydate{
+   font-weight: 600;
+   background-color: #8e94f2 !important;
+}
